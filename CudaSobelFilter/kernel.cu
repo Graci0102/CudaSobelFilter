@@ -60,7 +60,7 @@ int main() {
 
 	// Load the image
 	cv::Mat image = cv::imread(imageName, cv::IMREAD_GRAYSCALE);
-	cv::Mat OGimage = cv::imread(imageName); //csak az eredeti színkép miatt
+	cv::Mat OGimage = cv::imread(imageName); //just for OG colors
 
 	int ogWidth = image.cols;
 	int ogHeight = image.rows;
